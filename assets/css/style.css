@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Mohave:wght@300&family=Outfit&display=swap");
+body{
+    color:black;
+    font-size: 15px;
+    font-family:'Mohave',sans-serif;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+/*HOME, GALERY, ABOUT*/
+
+.slider{
+    background-image: url("../img/slika2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    filter: blur(3px);
+}
+.slider2{
+    background-image: url("../img/slika1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    filter: blur(3px);
+}
+.slider3{
+    background-image: url("../img/slika2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    filter: blur(3px);
+}
+.sadrzaj{
+    padding-bottom: 300px;
+}
+.ns1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.ns2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.dug{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+.lista{
+    list-style-type: none;
+
+}
+.mrz{
+    border: 1px solid #000 !important;
+    padding: 5px 13px;
+    border-radius: 50%;
+    list-style-type: none;
+}
+.mrz1{
+    border: 1px solid #000 !important;
+    padding: 5px 10px;
+    border-radius: 50%;
+    list-style-type: none;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
+.box{
+    
+    width: 100%;
+    background-size: cover;
+}
+.team .container {
+    position: relative;
+    z-index: 10;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.img-fluid {
+    width: 100%;
+    height: 500px;
+}
+.team .member .member-info {
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 20px 0;
+    color: #433f39;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+#why-us{
+    margin-top: 120px;
+}
+hr{
+    height: 3px;
+    width: 120px;
+}
+.navig{
+    width: 80%;
+}
+.product{
+    margin-top: 100px !important;
+}
+.poz2{
+    background-image: url("../img/poz2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.pr1{
+    background-image: url("../img/p3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.opis{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.text-center a{
+    text-decoration: none;
+    color: #000;
+}
+.btn a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.card-img-top{
+    height: 320px;
+    background-color: #000;
+    width: 17rem;
+    
+}
+.card{
+    width: 17rem;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.dugme{
+    width: 200px;
+    margin: 0px auto;
+    background-color: #a17a0e;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.3s;
+}
+.dugme:hover{
+    color: #000;
+    background-color: #fff;
+}
+.dugme2{
+    width: 150px;
+    margin: 0px auto;
+    background-color: #a17a0e;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.3s;
+}
+.dugme2:hover{
+    color: #000;
+    background-color: #fff;
+}
+.nsl{
+    font-size: 50px !important;
+}
+.naslserv{
+    font-size: 30px;
+    font-weight: 700;
+}
